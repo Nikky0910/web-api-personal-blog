@@ -1,0 +1,103 @@
+:root {
+    --border: 0.3rem solid black;
+    --circle: hsl(40, 100%, 53%);
+    --color-light: white;
+    --h1-size: 4rem;
+    --h2-size: 3rem;
+    --h3-size: 1.5rem;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
+header {
+    display: flex;
+    height: 2rem;
+    justify-content: flex-end;
+    flex-basis: 100%;
+    width: 100%;
+    padding: 3rem;
+    border-bottom: var(--border);
+    align-items: center;
+}
+img {
+    width: 2rem;
+    height: 2rem;
+}
+main {
+    display: flex;
+    border-top: var(--border);
+    margin: 1rem 0 0;
+    height: 100vh;
+}
+main section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#b-right{
+    border-right: var(--border);
+    align-items: center;
+    margin-right: 0.5rem;
+}
+figure {
+    background-image: repeating-linear-gradient(rgb(249, 216, 114), var(--circle), grey);
+    background-size: cover;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+figure h1 {
+    color: var(--color-light);
+    font-size: var(--h1-size);
+}
+#b-left {
+    flex-wrap: wrap;
+    padding: 6rem 2rem 0;
+    align-content: center;
+    border-left: var(--border);
+    
+}
+#b-left h2 {
+    width: 100%;
+    font-size: var(--h2-size);
+    padding: 2rem;
+    text-align: center;
+}
+form {
+    width: 100%;
+}
+form .field {
+    padding: 1rem 0;
+}
+form .field input,
+form .field textarea,
+form .field a button {
+    width: 100%;
+}
+form .field input,
+.field a button {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: var(--h3-size);
+}
+form .field textarea {
+    height: 6rem;
+}
+
+form .field label,
+form .field a button {
+    font-size: var(--h3-size);
+    font-weight: bold;
+}
+form .field a button {
+    color: var(--color-light);
+    background-color: black;
+}
