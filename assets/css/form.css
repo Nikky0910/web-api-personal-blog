@@ -30,6 +30,7 @@ form .field input,
 }
 form .field textarea {
     height: 6rem;
+    font-size: var(--h3-size);
 }
 
 form .field label,

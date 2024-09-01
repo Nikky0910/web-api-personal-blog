@@ -10,6 +10,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h1,h2,h3,h4,h5,h6 {
     font-size: 100%;
@@ -19,19 +20,18 @@ header {
     height: 2rem;
     justify-content: flex-end;
     flex-basis: 100%;
-    width: 100%;
     padding: 3rem;
     border-bottom: var(--border);
     align-items: center;
 }
-img {
+#theme {
     width: 2rem;
     height: 2rem;
 }
 main {
     display: flex;
     border-top: var(--border);
-    margin: 1rem 0 0;
+    margin: 0.5rem 0 0;
     height: 100vh;
 }
 main section {

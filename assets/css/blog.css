@@ -1,0 +1,109 @@
+:root {
+    --radius: 8px;
+    --inner-border: 0.1rem solid black;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
+header {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    border-bottom: var(--border);
+}
+header h2,
+nav {
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav {
+    justify-content: flex-end;
+}
+nav button {
+    padding: 0.5rem;
+    margin-right: 2rem;
+    background-color: black;
+    color: var(--color-light);
+    font-size: var(--h3-size);
+}
+header h2 {
+    font-size: var(--h2-size);
+}
+main {
+    flex-wrap: wrap;
+    padding: 1rem;
+    align-content: flex-start;
+    border-bottom: var(--border);
+}
+main article {
+    border: 0.2rem solid black;
+    width: 100%;
+    border-radius: var(--radius);
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-bottom: 1rem; 
+}
+article h3 {
+    padding: 0.5rem 0.5rem 0;
+    font-size: var(--h3-size);
+    border-bottom: var(--inner-border);
+    width: 100%;
+}
+article p,
+article footer {
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+article > p {
+    font-style: italic;
+    margin-left: 0.5rem;
+}
+article footer {
+    padding-bottom: 0;
+}
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+    border-top: var(--border);
+    padding: 1rem 3rem;
+}
+#footer h3,
+#footer section {
+    width: 100%;
+    padding: 0.5rem;
+}
+#footer h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--h3-size);
+}
+#footer section p {
+    padding: 0.5rem;
+    font-size: var(--h3-size);
+    font-weight: bold;
+    font-style: italic;
+}
+#footer section p #blog {
+    font-weight: normal;
+}
+#heart {
+    font-size: 1.5rem;
+    color: hsl(7, 93%, 38%);
+}
+#arrow {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
