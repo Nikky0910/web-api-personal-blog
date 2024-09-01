@@ -1,0 +1,43 @@
+#b-left {
+    flex-wrap: wrap;
+    padding: 6rem 2rem 0;
+    align-content: center;
+    border-left: var(--border);
+    
+}
+#b-left h2 {
+    width: 100%;
+    font-size: var(--h2-size);
+    padding: 2rem;
+    text-align: center;
+}
+form {
+    width: 100%;
+}
+form .field {
+    padding: 1rem 0;
+}
+form .field input,
+form .field textarea,
+form .field a button {
+    width: 100%;
+}
+form .field input,
+.field a button {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: var(--h3-size);
+}
+form .field textarea {
+    height: 6rem;
+}
+
+form .field label,
+form .field a button {
+    font-size: var(--h3-size);
+    font-weight: bold;
+}
+form .field a button {
+    color: var(--color-light);
+    background-color: black;
+}
