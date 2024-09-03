@@ -17,6 +17,7 @@ toggle.addEventListener('click', function(){
         header.setAttribute('class', mode);
         footer.setAttribute('class', mode);
         button.setAttribute('class', mode);
+        toggle.src = toggle.attributes['data-moon'].value;
         for (let article of articles) {
             article.setAttribute('class', mode);
             let h3 = article.querySelector('h3');
@@ -29,6 +30,7 @@ toggle.addEventListener('click', function(){
         header.setAttribute('class', mode);
         footer.setAttribute('class', mode);
         button.setAttribute('class', mode);
+        toggle.src = toggle.attributes['data-sun'].value;
         for (let article of articles) {
             article.setAttribute('class', mode);
             let h3 = article.querySelector('h3');
