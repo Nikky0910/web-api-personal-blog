@@ -1,6 +1,3 @@
-//take it from the local storage 
-//display it in the blog page
-// change the background to dark when clicking the toggle
 
 let blogsList= localStorage.getItem('blogsArray');
 let updatedBlogsList= JSON.parse(blogsList);
