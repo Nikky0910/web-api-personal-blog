@@ -58,3 +58,39 @@ figure h1 {
     color: var(--color-light);
     font-size: var(--h1-size);
 }
+button a {
+    text-decoration: none;
+}
+
+
+
+body.light,
+button.dark {
+    background-color: white;
+    color: black;
+}
+body.dark,
+button.light {
+    background-color: black;
+    color: white;
+}
+button.light a {
+    color: white;
+}
+button.dark a {
+    color: black;
+}
+main.light,
+header.light,
+#footer.light,
+article.light,
+h3.light {
+    border-color: black;
+}
+main.dark,
+header.dark,
+#footer.dark,
+article.dark,
+h3.dark {
+    border-color: white;
+}

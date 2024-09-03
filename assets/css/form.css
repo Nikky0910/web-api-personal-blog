@@ -19,11 +19,11 @@ form .field {
 }
 form .field input,
 form .field textarea,
-form .field a button {
+form .field button {
     width: 100%;
 }
 form .field input,
-.field a button {
+.field button {
     height: 3rem;
     line-height: 3rem;
     font-size: var(--h3-size);
@@ -34,11 +34,11 @@ form .field textarea {
 }
 
 form .field label,
-form .field a button {
+form .field button {
     font-size: var(--h3-size);
     font-weight: bold;
 }
-form .field a button {
+form .field button {
     color: var(--color-light);
     background-color: black;
 }
